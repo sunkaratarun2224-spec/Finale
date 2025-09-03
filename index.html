@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpeedX Bike Showroom</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1502877338535-766e1452684a') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #222;
+    }
+    .bikes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .bike-card {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .bike-card:hover {
+      transform: scale(1.05);
+    }
+    .bike-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .bike-card h3 {
+      margin: 15px 0 10px;
+    }
+    .bike-card p {
+      padding: 0 10px 20px;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SpeedX Bike Showroom</h1>
+    <p>Ride Your Dreams</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#bikes">Bikes</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>Discover the Best Bikes in Town</div>
+  </section>
+
+  <section id="bikes" class="container">
+    <h2 class="section-title">Our Bikes</h2>
+    <div class="bikes">
+      <div class="bike-card">
+        <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" alt="Sport Bike">
+        <h3>Sport Bike</h3>
+        <p>High-speed performance with ultimate control.</p>
+      </div>
+      <div class="bike-card">
+        <img src="https://images.unsplash.com/photo-1619167981687-6c9c6f1e6f53" alt="Cruiser Bike">
+        <h3>Cruiser Bike</h3>
+        <p>Comfortable and stylish for long rides.</p>
+      </div>
+      <div class="bike-card">
+        <img src="https://images.unsplash.com/photo-1525101236943-5df07ec92b1b" alt="Adventure Bike">
+        <h3>Adventure Bike</h3>
+        <p>Built for every terrain and thrilling journeys.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2 class="section-title">About Us</h2>
+    <p>At SpeedX Bike Showroom, we bring you a wide range of premium bikes, from sporty models to cruisers and adventure bikes. Our goal is to help every rider find the perfect bike that matches their passion and lifestyle.</p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2 class="section-title">Contact Us</h2>
+    <p>Email: info@speedxbikes.com | Phone: +1 234 567 890</p>
+    <p>Visit us at: 123 Main Street, Your City</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SpeedX Bike Showroom | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
